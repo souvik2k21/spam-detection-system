@@ -1,8 +1,8 @@
 function detectSpam() {
   var inputContent = document.getElementById("inputContent").value;
 
-  // Send the message to the backend for spam detection
-  fetch("http://127.0.0.1:10000/detect", {
+  // Ensure this URL matches your deployed backend's URL
+  fetch("https://spam-detection-system-1.onrender.com/detect", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
