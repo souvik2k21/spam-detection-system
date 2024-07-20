@@ -2,7 +2,7 @@ function detectSpam() {
   var inputContent = document.getElementById("inputContent").value;
 
   // Send the message to the backend for spam detection
-  fetch("http://127.0.0.1:8000/detect", {
+  fetch("http://127.0.0.1:10000/detect", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
