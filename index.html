@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spam Detection Service</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            >Spam Detection Service ~ By Souvik Karmakar</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container mt-5 pt-5">
+      <section id="home">
+        <h2>Welcome to Our Spam Detection Service</h2>
+        <p>
+          Our spam detection service is designed to help you identify and filter
+          out spam in your emails and messages. Leveraging advanced machine
+          learning algorithms, we can accurately detect spam messages by
+          analyzing various features and patterns within the text. Our service
+          ensures that your communication remains clean and secure, providing
+          you with a seamless experience.
+        </p>
+        <p>
+          Try our service now and experience the benefits of a spam-free
+          communication experience.
+        </p>
+        <a href="service.html" class="btn btn-primary">Get Started</a>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          We are a team of experts dedicated to providing top-notch spam
+          detection and cybersecurity solutions. Our mission is to help
+          individuals and businesses protect their communications from spam and
+          ensure a safer digital experience.
+        </p>
+        <p>
+          Our service utilizes advanced machine learning algorithms to
+          accurately detect and filter out spam from emails and SMS. By
+          leveraging the power of artificial intelligence, we can identify spam
+          patterns and continuously improve our detection capabilities.
+        </p>
+        <p>
+          We are committed to staying ahead of evolving spamming techniques by
+          constantly updating our datasets with the latest examples of spam and
+          non-spam messages. This allows us to enhance the accuracy and
+          precision of our models, ensuring that our users benefit from the most
+          reliable spam detection service available.
+        </p>
+        <p>
+          Your privacy and security are of paramount importance to us. We handle
+          your data with the utmost care and confidentiality, providing you with
+          peace of mind as you use our service.
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          If you have any questions, comments, or feedback, please feel free to
+          reach out to us. We would be happy to assist you in any way possible.
+        </p>
+        <form action="contact_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              class="form-control"
+              required
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit" class="btn btn-primary" />
+        </form>
+      </section>
+    </main>
+    <footer class="bg-light text-center py-3">
+      <p>&copy; 2023 Spam Detection Service. All rights reserved.</p>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
