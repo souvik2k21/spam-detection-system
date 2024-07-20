@@ -1,3 +1,6 @@
-streamlit
-nltk
-sklearn
+fastapi==0.95.1
+uvicorn==0.22.0
+pydantic==2.4.0
+nltk==3.8.1
+scikit-learn==1.3.0
+streamlit==1.21.0
