@@ -4,21 +4,20 @@ Welcome to the Spam Detection Service project! This service uses advanced machin
 
 ## Project Structure
 
-```plaintext
-.
-├── app.py               # The main backend application code using FastAPI. It serves the machine learning model and handles API requests.
-├── index.html           # The main homepage of the web application.
-├── mymodel.pkl          # The serialized machine learning model.
-├── pbg.jpg              # Background image used in the web application.
-├── script.js            # JavaScript file containing the client-side logic.
-├── service.css          # CSS file for styling the service page.
-├── service.html         # HTML file for the service page where users input their messages for spam detection.
-├── service.js           # JavaScript file containing additional client-side logic for the service page.
-├── spam_detection.ipynb # Jupyter Notebook containing the code for training the spam detection model.
-├── spam.csv             # CSV file containing the dataset used for training the model.
-├── style.css            # CSS file for styling the main index page.
-└── TfidfVectorizer.pkl  # The serialized TF-IDF vectorizer used for text transformation.
+The project directory contains the following files:
 
+- **app.py**: The main FastAPI application file.
+- **index.html**: The homepage of the web application.
+- **mymodel.pkl**: The trained machine learning model for spam detection.
+- **pbg.jpg**: The background image used in the service page.
+- **script.js**: The JavaScript file for the homepage.
+- **service.css**: The CSS file for styling the service page.
+- **service.html**: The HTML file for the spam detection service page.
+- **service.js**: The JavaScript file for handling form submissions and displaying results on the service page.
+- **spam_detection.ipynb**: The Jupyter Notebook used for training and evaluating the spam detection model.
+- **spam.csv**: The dataset used for training the spam detection model.
+- **style.css**: The CSS file for styling the homepage.
+- **TfidfVectorizer.pkl**: The trained TfidfVectorizer used for transforming input text.
 
 ## Hosting
 
@@ -37,4 +36,3 @@ The `app.py` is hosted on Render, making the API accessible for detecting spam.
 2. Install the required dependencies.
 3. Run the FastAPI app using `python -m uvicorn app:app --host 0.0.0.0 --port 10000`.
 4. Open `index.html` or `service.html` in your browser to use the application.
-```
